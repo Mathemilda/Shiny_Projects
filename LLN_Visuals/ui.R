@@ -37,7 +37,8 @@ shinyUI(fluidPage(
             tabsetPanel(
             tabPanel("Normal Dist", plotOutput("normPlot")),
             tabPanel("Poisson Dist", plotOutput("expPlot")),
-            tabPanel("Exponential Dist", plotOutput("poisPlot"))
+            tabPanel("Exponential Dist", plotOutput("poisPlot")),
+            tabPanel("Cauchy Dist", plotOutput("cauchyPlot"))
              )
         )
     )
