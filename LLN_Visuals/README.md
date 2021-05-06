@@ -4,7 +4,7 @@ will tend to become closer to the expected value as bigger samples are processed
 a normal distribution curve. The question is, how quickly does it converge? And what about LLN assumption that an expected value of a distribution should exists? 
 What happens if it does not?
 
-Here I present examples of sample means drown from normal, Poisson, exponential and Cauchy distribitons. The last one does not have an expected value. You can choose a
+Here I present examples of sample means drawn from normal, Poisson, exponential and Cauchy distribitons. The last one does not have an expected value. You can choose a
 sample size and how many samples to consider. The distributions of resulting sample means are shown as histograms.
 
 All distributions displayed here except for Cauchy were modified to have 1 as a mean. The example with Cauchy distribution was modified to have a median =1. 
@@ -23,3 +23,6 @@ The [Cauchy distribution](https://www.statisticshowto.com/cauchy-distribution-2/
 You can look it up and see what happens when we compute sample means in practice: 
 although majority of values are close to 1, but sample means are very spread out, their range keeps changing and average of sample means does not converge to one number. 
 
+Here is a link to a site where the code is deployed and its result can be watched:
+
+[Shiny site for app deployment](https://mathemilda.shinyapps.io/large-number-theorem-visuals/)
